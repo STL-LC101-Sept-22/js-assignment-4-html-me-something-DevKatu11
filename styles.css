@@ -1,1 +1,8 @@
-/* Write your CSS here! */
+body {
+    width: 100%
+    max-width: 
+    margin: 0 auto;
+    background-color: #b39196;
+    font-size: 64%;
+ 
+}
