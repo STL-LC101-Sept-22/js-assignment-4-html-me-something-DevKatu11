@@ -1,8 +1,15 @@
 body {
     width: 100%
-    max-width: 
+    max-width  1024px;
     margin: 8px;
-    background color: #883f4a
-    font-size: 64%;
- 
+    background-color: #cebfbf;
+    font-size: auto;
+}
+
+mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
 }
