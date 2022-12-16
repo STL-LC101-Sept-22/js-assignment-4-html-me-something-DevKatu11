@@ -1,1 +1,64 @@
-/* Write your CSS here! */
+body {
+    width: 100%
+    max-width  1024px;
+    margin: 8px;
+    background-color: #cebfbf;
+    font-size: auto;
+}
+header,
+main,
+footer {
+  background-color: #baa3a3;  
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+figure.gallery {
+    margin: 5px;
+    border: 1px solid rgb(255, 225, 225);
+    float: left;
+    width: 180px;
+}
+figure.gallery:hover {
+    border: 1px solid rgb(156, 154, 154)
+}
+figure.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+#pictureWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#lOr {
+    width: 32.33%;
+}
+figcaption.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    Width: 100%;
+    bottom: 0;
+    display: flex;
+}
+
+#footer > p {
+    margin: 0 auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
